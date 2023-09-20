@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  #hero {
+    height: 500px;
+    background-image: url(images/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #products {
+    padding: 20px;
+  }
+  
+  #products h1 {
+    margin-bottom: 20px;
+  }
+  
+  #products ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #products li {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  #products img {
+    width: 100%;
+  }
+  
+  #products h2 {
+    margin-top: 10px;
+  }
+  
+  #products p {
+    margin-bottom: 10px;
+  }
+  
+  #products a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
